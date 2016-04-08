@@ -1,6 +1,8 @@
 # JonApiSerializer
 Used to serialize an object structre with functions. It will be serialized to an object that in turn may be serialized to json and sent ov e.g. sockets. The remote side may deserialize the object to an object structure that mirrors the sender side. An invoker method will be triggerd on the reciever side and it's up to you to do what ever with the functions call.
 
+[Look at JonRemoteApi for a real use case.](https://github.com/spuun/node-jonremoteapi)
+
 ## Example
 Very simple example.
 
@@ -9,7 +11,7 @@ const serializer = require('jonapiserializer');
 
 const api = {
 	log: function(str) { console.log(str); },
-  doNothing: function() { }
+	doNothing: function() { }
 }
 
 cosnt serializedApi = serializer.serialize(api);
