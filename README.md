@@ -14,7 +14,7 @@ const api = {
 	doNothing: function() { }
 }
 
-cosnt serializedApi = serializer.serialize(api);
+const serializedApi = serializer.serialize(api);
 
 // json serialize serializedApi or what ever, send it to a remote side that uses it like:
 const remoteApiInvoker = (methodName, args) => {
