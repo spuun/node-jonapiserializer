@@ -2,7 +2,7 @@
 	"name": "jonapiserializer",
 	"description": "Serialize an API object to simple object to be sent over e.g. sockets.",
 	"version": "0.1.0",
-	"author": "Jon Börjesson <jon@spuun.se>",
+	"author": "Jon Börjesson <jon@spuun.se> (http://spuun.se)",
 	"main": "./lib/index.js",
 	"license": "MIT",
 	"repository": {
