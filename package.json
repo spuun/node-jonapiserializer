@@ -5,7 +5,10 @@
 	"author": "Jon Börjesson <jon@spuun.se> (http://spuun.se)",
 	"main": "./lib/index.js",
 	"license": "MIT",
-	"repository": "spuun/node-jonapiserializer",
+	"repository": {
+		"type":"git",
+		"url":"https://github.com/spuun/node-jonapiserializer.git"
+	},
 	"scripts": {
 		"test": "./node_modules/mocha/bin/mocha"
 	},
